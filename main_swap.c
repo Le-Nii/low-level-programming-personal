@@ -5,10 +5,7 @@
 /**
  * main - contains function to swap numbers
  *
- * @a: first number used for swapping
- * @b: second number used for swapping
- *
- * Retun: returns 0 on success
+ * Return: returns 0 on success
  */
 
 int main(void)
@@ -18,5 +15,5 @@ int main(void)
 
 	swap(&a, &b);
 	printf("a = %d, b = %d\n", a, b);
-	return EXIT_SUCCESS;
+	return (EXIT_SUCCESS);
 }
